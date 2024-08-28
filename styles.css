@@ -16,16 +16,41 @@
     font-style: normal;
 }
 
+html,body{
+    height: 100%;
+}
+
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 14px;
+    color: var(--whiteColor);
     background-color: var(--grey900);
 }
 
+.card{
+    background-color: var(--grey700);
+    width: 300px;
+    border-radius: 10px;
+}
 
+.card-elements{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.card-elements img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
 
-
-
+.card-heading p{
+    text-align: center;
+}
 
 
 
