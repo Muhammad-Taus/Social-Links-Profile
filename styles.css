@@ -46,14 +46,28 @@ body{
     border-radius: 50%;
     width: 60px;
     height: 60px;
+    margin-bottom: 20px;
 }
 
 .card-heading p{
     text-align: center;
 }
 
+.card-heading p:first-child{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.card-heading p:nth-child(2){
+    padding-top: 5px;
+    color: var(--greenColor);
+    font-size: 11px;
+}
+
+.card-heading p:nth-child(3){
+    padding: 12px;
+    font-size: 11px;
+}
 
 
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
