@@ -30,7 +30,7 @@ body{
 }
 
 .card{
-    background-color: var(--grey700);
+    background-color: var(--grey800);
     width: 300px;
     border-radius: 10px;
 }
@@ -69,5 +69,14 @@ body{
     font-size: 11px;
 }
 
-
-
+.card-lists li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey700);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 40px;
+}
